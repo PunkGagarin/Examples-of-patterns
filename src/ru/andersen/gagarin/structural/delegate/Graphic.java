@@ -16,7 +16,7 @@ class Square implements Graphic{
 
     @Override
     public void draw() {
-        System.out.println("Рисуем треугольник.");
+        System.out.println("Рисуем квадрат.");
     }
 }
 
@@ -24,6 +24,6 @@ class Circle implements Graphic{
 
     @Override
     public void draw() {
-        System.out.println("Рисуем треугольник.");
+        System.out.println("Рисуем круг.");
     }
 }
